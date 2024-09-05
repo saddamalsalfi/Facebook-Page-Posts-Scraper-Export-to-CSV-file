@@ -1,4 +1,4 @@
-# Facebook Page Posts Scraper
+# Facebook Page Posts Scraper  Page Access Token from Facebook Graph API
 
 This code fetches posts from a Facebook page using the Facebook Graph API and saves them in a CSV file. It connects to Facebook's API using the `requests` library, retrieves post data (such as text, image, time, and publisher), and then saves this data in CSV format using the `pandas` library.
 
