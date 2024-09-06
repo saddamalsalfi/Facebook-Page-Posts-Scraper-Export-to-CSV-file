@@ -39,4 +39,4 @@ Once you have completed these steps and installed the libraries, you can success
 
 To run the code correctly, type the following command in the Python Terminal Editor:
 
-``` **python** filename.py  ```
+``` python filename.py  ```
