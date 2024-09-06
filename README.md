@@ -1,4 +1,4 @@
-# Facebook Page Posts Scraper  Page Access Token from Facebook Graph API
+# Facebook Page Posts Scraper Using Page Access Token from Facebook Graph API
 
 This code fetches posts from a Facebook page using the Facebook Graph API and saves them in a CSV file. It connects to Facebook's API using the `requests` library, retrieves post data (such as text, image, time, and publisher), and then saves this data in CSV format using the `pandas` library.
 
@@ -22,16 +22,22 @@ You need to install two libraries: `requests` for making HTTP requests and `pand
 
 ```bash
 pip install requests pandas
-
+```
 
 ## Required Page Management Permissions:
+
 The Access Token used must have the necessary permissions to access the page's data, such as:
 
-### pages_read_engagement
- To access posts and engage with them.
-### pages_manage_posts:
-To manage posts.
+- **pages_read_engagement**: To access posts and engage with them.
+- **pages_manage_posts**: To manage posts.
+
 These permissions must be configured in your app on the Facebook Developer Platform.
 
 Once you have completed these steps and installed the libraries, you can successfully run the code to fetch posts from a Facebook page and save them in a CSV file.
 
+
+
+To run the code correctly, type the following command in the Python Terminal Editor:
+
+``` ***python** filename.py  ```
+ق
