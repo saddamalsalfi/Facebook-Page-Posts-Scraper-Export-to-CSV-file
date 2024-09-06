@@ -16,6 +16,16 @@ This code fetches posts from a Facebook page using the Facebook Graph API and sa
 5. Select the app and choose the page you want to extract data from.
 6. Obtain the **Page Access Token** with the necessary permissions (e.g., `pages_read_engagement`).
 
+
+```python
+# Place your Page Access Token here
+access_token = 'YOUR_PAGE_ACCESS_TOKEN'
+
+# The page ID for the Facebook page
+page_id = 'YOUR_PAGE_ID'
+
+Replace 'YOUR_PAGE_ACCESS_TOKEN' with the actual Page Access Token obtained from the Facebook Developer Platform, and replace 'YOUR_PAGE_ID' with the Page ID of your Facebook page.
+
 ## Installing Python Libraries:
 
 You need to install two libraries: `requests` for making HTTP requests and `pandas` for data processing. You can install them using the following command:
