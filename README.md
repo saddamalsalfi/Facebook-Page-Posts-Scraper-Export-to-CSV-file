@@ -22,7 +22,7 @@ You need to install two libraries: `requests` for making HTTP requests and `pand
 
 ```bash
 pip install requests pandas
-
+```bash
 
 Required Page Management Permissions:
 The Access Token used must have the necessary permissions to access the page's data, such as:
