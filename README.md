@@ -22,13 +22,15 @@ You need to install two libraries: `requests` for making HTTP requests and `pand
 
 ```bash
 pip install requests pandas
-```bash
 
-Required Page Management Permissions:
+
+## Required Page Management Permissions:
 The Access Token used must have the necessary permissions to access the page's data, such as:
 
-pages_read_engagement: To access posts and engage with them.
-pages_manage_posts: To manage posts.
+### pages_read_engagement
+ To access posts and engage with them.
+### pages_manage_posts:
+To manage posts.
 These permissions must be configured in your app on the Facebook Developer Platform.
 
 Once you have completed these steps and installed the libraries, you can successfully run the code to fetch posts from a Facebook page and save them in a CSV file.
